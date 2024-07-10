@@ -30,6 +30,7 @@ class Detection(QThread):
 
         cap=cv2.VideoCapture(0)
 
+
         while self.running:
             ret, frame =cap.read()
 
